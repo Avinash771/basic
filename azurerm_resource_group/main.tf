@@ -15,3 +15,4 @@ output "ip" {
   value = azurerm_virtual_network.virtual_network.id
   
 }
+# resource "azurerm_resource"
