@@ -16,3 +16,4 @@ output "ip" {
   
 }
 # resource "azurerm_resource"
+# hello devops insider how are you
