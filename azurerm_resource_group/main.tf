@@ -15,3 +15,7 @@ output "ip" {
   value = azurerm_virtual_network.virtual_network.id
   
 }
+# resource "azurerm_resource"
+# hello devops insider how are you
+# coding ...data "check "name" {
+  
