@@ -2,7 +2,7 @@ resource "azurerm_resource_group" "resource_group" {
   name     = var.rg_name1
   location = var.location
 }
-
+# virtual netwok bana rahe hai
 resource "azurerm_virtual_network" "virtual_network" {
   name                = var.virtual_network_name
   depends_on = [ azurerm_resource_group.resource_group ]
